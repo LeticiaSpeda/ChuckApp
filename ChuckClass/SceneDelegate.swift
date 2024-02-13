@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ChuckClass
+//  Chuck
 //
-//  Created by Leticia Speda on 13/02/24.
+//  Created by Caio Fabrini on 27/01/23.
 //
 
 import UIKit

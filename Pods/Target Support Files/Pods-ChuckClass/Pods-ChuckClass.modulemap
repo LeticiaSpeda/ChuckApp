@@ -1,0 +1,6 @@
+framework module Pods_ChuckClass {
+  umbrella header "Pods-ChuckClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ChuckClassTests {
+  umbrella header "Pods-ChuckClassTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

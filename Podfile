@@ -9,7 +9,7 @@ target 'ChuckClass' do
 
   target 'ChuckClassTests' do
     inherit! :search_paths
-    pod 'OHHTTPStubs/Swift'
+#    pod 'OHHTTPStubs/Swift'
   end
 
 end

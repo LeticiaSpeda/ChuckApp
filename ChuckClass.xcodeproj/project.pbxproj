@@ -17,11 +17,11 @@
 		E02492182B7BB7AF009453D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024920E2B7BB7AF009453D9 /* ViewController.swift */; };
 		E02492192B7BB7AF009453D9 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02492102B7BB7AF009453D9 /* CategoryTableViewCell.swift */; };
 		E024921A2B7BB7AF009453D9 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02492112B7BB7AF009453D9 /* CategoryTableViewCell.xib */; };
-		E02492222B7BB80C009453D9 /* ChuckClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02492212B7BB80C009453D9 /* ChuckClassTests.swift */; };
 		E024922A2B7BB90B009453D9 /* LaunchScreen.storyboard.xml in Resources */ = {isa = PBXBuildFile; fileRef = E02492282B7BB90A009453D9 /* LaunchScreen.storyboard.xml */; };
 		E024922B2B7BB90B009453D9 /* Main.storyboard.xml in Resources */ = {isa = PBXBuildFile; fileRef = E02492292B7BB90B009453D9 /* Main.storyboard.xml */; };
 		E024922E2B7BB978009453D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E024922C2B7BB978009453D9 /* LaunchScreen.storyboard */; };
 		E024922F2B7BB978009453D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E024922D2B7BB978009453D9 /* Main.storyboard */; };
+		E02492312B7BE7CD009453D9 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02492302B7BE7CD009453D9 /* HomeServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		E02492102B7BB7AF009453D9 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		E02492112B7BB7AF009453D9 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 		E024921F2B7BB80C009453D9 /* ChuckClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E02492212B7BB80C009453D9 /* ChuckClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckClassTests.swift; sourceTree = "<group>"; };
 		E02492282B7BB90A009453D9 /* LaunchScreen.storyboard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LaunchScreen.storyboard.xml; sourceTree = "<group>"; };
 		E02492292B7BB90B009453D9 /* Main.storyboard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Main.storyboard.xml; sourceTree = "<group>"; };
 		E024922C2B7BB978009453D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E024922D2B7BB978009453D9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E02492302B7BE7CD009453D9 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
 		F41DFFAFE51EB453BCF5F90B /* Pods-ChuckClassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckClassTests.debug.xcconfig"; path = "Target Support Files/Pods-ChuckClassTests/Pods-ChuckClassTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,7 +176,7 @@
 		E02492202B7BB80C009453D9 /* ChuckClassTests */ = {
 			isa = PBXGroup;
 			children = (
-				E02492212B7BB80C009453D9 /* ChuckClassTests.swift */,
+				E02492302B7BE7CD009453D9 /* HomeServiceTests.swift */,
 			);
 			path = ChuckClassTests;
 			sourceTree = "<group>";
@@ -211,7 +211,6 @@
 				E024921B2B7BB80C009453D9 /* Sources */,
 				E024921C2B7BB80C009453D9 /* Frameworks */,
 				E024921D2B7BB80C009453D9 /* Resources */,
-				2980A63ABE5B1D20B0D2165E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,23 +324,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuckClass/Pods-ChuckClass-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2980A63ABE5B1D20B0D2165E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChuckClassTests/Pods-ChuckClassTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChuckClassTests/Pods-ChuckClassTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuckClassTests/Pods-ChuckClassTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9833D21F5DEC56DCFDC794BA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,7 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02492222B7BB80C009453D9 /* ChuckClassTests.swift in Sources */,
+				E02492312B7BE7CD009453D9 /* HomeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

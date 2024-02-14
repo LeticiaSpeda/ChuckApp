@@ -6,6 +6,7 @@ target 'ChuckClass' do
   use_frameworks!
   
   pod 'Alamofire'
+  pod 'OHHTTPStubs/Swift'
 
   target 'ChuckClassTests' do
     inherit! :search_paths

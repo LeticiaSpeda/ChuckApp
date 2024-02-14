@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43CF39073CF93CE4416AFA95 /* Pods_ChuckClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316FE2C0F61DF795B9C4D4F /* Pods_ChuckClass.framework */; };
 		B0940BF5475F99C87B2A18D0 /* Pods_ChuckClassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98060CE5ECC5454C9317F0F0 /* Pods_ChuckClassTests.framework */; };
+		E01ACCC92B7CE61B0074C13F /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ACCC82B7CE61B0074C13F /* HomeViewModelTests.swift */; };
 		E02491F82B7BB798009453D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02491F72B7BB798009453D9 /* Assets.xcassets */; };
 		E02492132B7BB7AF009453D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02492052B7BB7AF009453D9 /* SceneDelegate.swift */; };
 		E02492142B7BB7AF009453D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02492062B7BB7AF009453D9 /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 		98060CE5ECC5454C9317F0F0 /* Pods_ChuckClassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckClassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B442932AB4BB7C050AC92E96 /* Pods-ChuckClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckClass.release.xcconfig"; path = "Target Support Files/Pods-ChuckClass/Pods-ChuckClass.release.xcconfig"; sourceTree = "<group>"; };
 		BE92C45C242CDEDDD556389E /* Pods-ChuckClassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckClassTests.release.xcconfig"; path = "Target Support Files/Pods-ChuckClassTests/Pods-ChuckClassTests.release.xcconfig"; sourceTree = "<group>"; };
+		E01ACCC82B7CE61B0074C13F /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		E02491EB2B7BB797009453D9 /* ChuckClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02491F72B7BB798009453D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E02491FC2B7BB798009453D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				E02492302B7BE7CD009453D9 /* HomeServiceTests.swift */,
+				E01ACCC82B7CE61B0074C13F /* HomeViewModelTests.swift */,
 			);
 			path = ChuckClassTests;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E02492312B7BE7CD009453D9 /* HomeServiceTests.swift in Sources */,
+				E01ACCC92B7CE61B0074C13F /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
